@@ -1,0 +1,28 @@
+{
+  "name": "ergnuor/serializer",
+  "description": "",
+  "keywords": ["serializer"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denis Tarasov",
+      "email": "brokeneye@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "symfony/serializer": "6.3.*",
+    "symfony/property-access": "6.3.*",
+    "symfony/property-info": "6.3.*"
+  },
+  "suggest": {
+    "doctrine/orm": "For Doctrine ORM normalizers"
+  },
+  "autoload": {
+    "psr-4": {"Ergnuor\\Serializer\\": "src/"}
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
